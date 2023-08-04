@@ -34,7 +34,6 @@ function App() {
 
   let status;
   let tie;
-  let count = 0;
   tie = sqr.every(ele => ele !== null);
   console.log(tie)
   const winner = Winner(sqr);
@@ -45,8 +44,6 @@ function App() {
   }else {
     status = 'Next Player is ' + (turn ? 'X':'O');
   }
-
-
 
   return (
     <>
